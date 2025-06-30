@@ -1,0 +1,20 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "app:dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/asar": "latest",
+    "electron": "^37.1.0",
+    "electron-builder": "^26.0.17"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}
